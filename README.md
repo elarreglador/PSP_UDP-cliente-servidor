@@ -1,4 +1,4 @@
-![Imagen]()
+![Imagen](https://github.com/elarreglador/UDP-cliente-servidor/blob/main/SCREENSHOTS/Social%20preview.png)
 
 
 ************************************
@@ -17,8 +17,10 @@ ACERCA DE LA APLICACION
 ************************************
 El cliente se conecta al servidor y le envia un mensaje, el servidor lo muestra por pantalla y se lo reenvia al cliente que tambien muestra el mensaje
 
+En las imagenes podemos ver que funciona tanto en localhost como en un equipo remoto en la red local
 
-![Imagen]()
+![Imagen](https://github.com/elarreglador/UDP-cliente-servidor/blob/main/SCREENSHOTS/Captura%20de%20pantalla%20de%202023-12-14%2018-49-25.png)
+![Imagen](https://github.com/elarreglador/UDP-cliente-servidor/blob/main/SCREENSHOTS/Captura%20de%20pantalla%20de%202023-12-14%2018-45-20.png)
 
 
 ************************************
@@ -50,7 +52,7 @@ java Cliente "Este es el mensaje viajero" localhost 9669
 
 De este modo obtendremos algo similar a esto:
 
-![Imagen]()
+![Imagen](https://github.com/elarreglador/UDP-cliente-servidor/blob/main/SCREENSHOTS/Captura%20de%20pantalla%20de%202023-12-14%2018-40-12.png)
 
 
 
