@@ -23,6 +23,7 @@ public class ServidorUDP {
                 DatagramPacket dpRecibido = new DatagramPacket(mensajeRecibido,mensajeRecibido.length);
                 dSocket.receive(dpRecibido);
                 System.out.println("[Cliente] "+new String(dpRecibido.getData()));
+                mensajeRecibido = new byte[1000];
 
                 //Envio el mismo paquete recibido al remitente
                 DatagramPacket dpRespuesta = new DatagramPacket(
