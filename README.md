@@ -16,8 +16,7 @@ https://github.com/elarreglador
 ACERCA DE LA APLICACION
 ************************************
 
-Modificacion del programa [UDP cliente-servidor](https://github.com/elarreglador/UDP-cliente-servidor/tree/main) en la que el usuario introduce el mensaje por teclado dentro de la aplicacion cliente
-
+Comunicacion UDP entre cliente y servidor ya sea ambos en un mismo equipo o bien en diferentes equipos de la misma red
 
 
 ************************************
@@ -50,7 +49,7 @@ java Cliente localhost 9669
 
 De este modo obtendremos algo similar a esto:
 
-![Imagen]()
+![Imagen](https://github.com/elarreglador/UDP-cliente-servidor/blob/main/SCREENSHOTS/Captura%20de%20pantalla%20de%202023-12-14%2019-41-23.png)
 
 
 
