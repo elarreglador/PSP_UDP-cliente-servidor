@@ -15,12 +15,9 @@ https://github.com/elarreglador
 ************************************
 ACERCA DE LA APLICACION
 ************************************
-El cliente se conecta al servidor y le envia un mensaje, el servidor lo muestra por pantalla y se lo reenvia al cliente que tambien muestra el mensaje
 
-En las imagenes podemos ver que funciona tanto en localhost como en un equipo remoto en la red local
+Modificacion del programa [UDP cliente-servidor](https://github.com/elarreglador/UDP-cliente-servidor/tree/main) en la que el usuario introduce el mensaje por teclado dentro de la aplicacion cliente
 
-![Imagen](https://github.com/elarreglador/UDP-cliente-servidor/blob/main/SCREENSHOTS/Captura%20de%20pantalla%20de%202023-12-14%2018-49-25.png)
-![Imagen](https://github.com/elarreglador/UDP-cliente-servidor/blob/main/SCREENSHOTS/Captura%20de%20pantalla%20de%202023-12-14%2018-45-20.png)
 
 
 ************************************
@@ -44,15 +41,16 @@ El servidor debe recibir por parametro el numero de puerto en el que queda a la 
 java Servidor 9669
 </pre>
 
-El cliente debe recibir por parametro el mensaje (entrecomillado si son varias palabras), la IP de destino o localhost si el cliente esta en el mismo equipo y por ultimo el puerto en el que escucha el servidor.
+El cliente debe recibir por parametro la IP de destino o localhost si el cliente esta en el mismo equipo y por ultimo el puerto en el que escucha el servidor.
 
+Una vez lanzado el cliente el usuario escribira el mensaje que se enviara al servidor.
 <pre>
-java Cliente "Este es el mensaje viajero" localhost 9669
+java Cliente localhost 9669
 </pre>
 
 De este modo obtendremos algo similar a esto:
 
-![Imagen](https://github.com/elarreglador/UDP-cliente-servidor/blob/main/SCREENSHOTS/Captura%20de%20pantalla%20de%202023-12-14%2018-40-12.png)
+![Imagen]()
 
 
 
