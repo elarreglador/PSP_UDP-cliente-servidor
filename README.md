@@ -45,7 +45,7 @@ java Servidor 9669
 El cliente debe recibir por parametro el mensaje (entrecomillado si son varias palabras), la IP de destino o localhost si el cliente esta en el mismo equipo y por ultimo el puerto en el que escucha el servidor.
 
 <pre>
-java Cliente "Este es el mensaje viajero" localhost 9696
+java Cliente "Este es el mensaje viajero" localhost 9669
 </pre>
 
 De este modo obtendremos algo similar a esto:
